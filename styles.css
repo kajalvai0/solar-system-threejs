@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0a0a23; /* Dark space background */
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+#solar-system-canvas {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}
+
+/* Holographic info panel styles */
+.info-panel {
+    position: absolute;
+    background: rgba(0, 204, 255, 0.1); /* Semi-transparent cyan */
+    border: 2px solid #00ccff;
+    border-radius: 8px;
+    padding: 10px;
+    color: #ffffff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 14px;
+    text-shadow: 0 0 5px #00ccff;
+    pointer-events: none; /* Prevent interaction */
+    transition: opacity 0.3s;
+}
